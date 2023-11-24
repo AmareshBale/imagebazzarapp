@@ -36,7 +36,7 @@ const SearchBar = ({setSearchResults}) => {
                 />
                 <button type="submit">Submit</button>
             </form>
-            <h1>Hello</h1>
+            <h1>Search for IMAGES</h1>
         </div>
     );
 }
