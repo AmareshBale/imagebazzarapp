@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import SearchBar from "./Components/Display";
+import SearchBar from "./Components/SearchBar";
 import Display from "./Components/Display";
 
 
@@ -12,7 +12,7 @@ const App = () => {
 
   return(
     <div>
-      <h1>Amaresh</h1>
+
       <SearchBar setSearchResults={setSearchResults}/>
       <Display searchResults={searchResults}/>
     </div>
